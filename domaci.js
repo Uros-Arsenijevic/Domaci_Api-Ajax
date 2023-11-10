@@ -10,7 +10,7 @@ $.ajax({
                         .html(
                             `
                             <p>${singleElements.email}</p>
-                            // <b>${singleElements.first_name}</b>
+                            <b>${singleElements.first_name}</b>
                             <img src="${singleElements.avatar}">
                             `
                         )
